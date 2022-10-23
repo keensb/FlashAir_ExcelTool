@@ -1,0 +1,14 @@
+本项目的扩展包类 as3xls 依赖flex的 mx.collections.ArrayCollection
+没有这东西的话,
+从flash builder目录下的 sdks\4.7.0\frameworks\libs 里拷贝过来
+mx.collections.ArrayCollection 的实现存在于 framework.swc 中 , 所以只要拷 framework.swc 就够了
+
+
+在项目里新建了一个libs文件夹存放framework.swc
+
+然后还要在Flash IDE里配置一下 依赖的swc的路径(根目录下的libs文件夹) ./libs
+如果用FlashBuilder作编辑器, 那么FlashBuilder也要配置
+
+
+如果有命名空间的报错, 在ActionScrtpt设置 的 配置常量里 添加
+CONFIG::performanceInstrumentation   true

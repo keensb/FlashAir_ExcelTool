@@ -1,0 +1,92 @@
+<!--Adobe AIR 配置文件模板. 
+自定义参数用于安装，运行AIR程序. 
+详情参见 http://www.adobe.com/go/air_1.0_application_descriptor for complete 
+documentation. 
+xmlns-Adobe AIR 命名空间:http://ns.adobe.com/air/application/1.0 
+minimumPatchLevel- 运行程序需要的最低 AIR runtime 版本号. 可选. 
+--> 
+<!-- 应用程序的ID标示字符串，必须 --> 
+<id>MZDown</id> 
+<!-- 程序的文件名称，必须 --> 
+<filename>MZDown</filename> 
+<!-- 显示在AIR安装过程中的程序名称，必须 --> 
+<name>MZDown</name> 
+<!-- 程序版本 (比如 "v1", "2.5", 或 "Alpha 1"). 必须 --> 
+<version>v1</version> 
+<!-- 描述，显示于AIR的安装过程中，可选 --> 
+<description></description> 
+<!-- 版权信息，可选 --> 
+<copyright></copyright> 
+<!-- 程序运行窗口设置，必须 --> 
+<initialWindow> 
+<!-- 应用程序的主文件，SWF或HTML格式的，必须 --> 
+<!-- 注意: 在Flex Builder中, 这个参数是自动设置的 --> 
+<content>MZDown.swf</content> 
+<!-- 主窗口的标题，可选 --> 
+<title></title> 
+<!-- 使用系统主题的类型 (使用 "standard" 或 "none"). 可选. 默认是 
+standard.--> 
+<systemChrome>none</systemChrome> 
+<!-- 指示窗口是否是透明的. 只有当过systemChrome设置为false的时候才起
+作用. 可选. 默认是false.--> 
+<transparent>true</transparent> 
+<!-- 指示窗口是否自动显示. 可选. 默认是false.--> 
+<visible>true</visible> 
+<!-- 指示用户是否可以最小化窗口. 可选. 默认是true.--> 
+<minimizable></minimizable> 
+<!-- 指示用户是否可以最大化窗口. 可选. 默认是true. --> 
+<maximizable></maximizable> 
+<!-- 指示用户是否可以更改窗口大小. 可选. 默认是true.--> 
+<resizable></resizable> 
+<!-- 窗口初始宽度，可选 --> 
+<width>800</width> 
+<!-- 窗口初始高度，可选 --> 
+<height>600</height> 
+<!-- 窗口初始X轴坐标，可选 --> 
+<x></x> 
+<!-- 窗口初始Y轴坐标，可选 --> 
+<y></y> 
+<!-- 窗口的最小尺寸, 请按照宽度/高度的格式编写, 比如"400 200". 可选 --> 
+<minSize></minSize> 
+<!-- 窗口的最大尺寸, 请按照宽度/高度的格式编写, 比如"800 600". 可选 --> 
+<maxSize></maxSize> 
+</initialWindow> 
+<!-- 标准的程序文件安装路径设置. 可选 --> 
+<installFolder></installFolder> 
+<!-- 操作系统程序/菜单中的路径设置. 可选 --> 
+<programMenuFolder></programMenuFolder> 
+<!-- 程序的图标设置. 可以自定义路径到AIR安装包中的PNG格式图片的位置. 可 
+选 --> 
+<icon> 
+<image16x16></image16x16>
+<image32x32></image32x32> 
+<image48x48></image48x48> 
+<image128x128></image128x128> 
+</icon> 
+<!-- 用户手动更新 (true), 或由默认的 AIR 应用处理更新 (false).可选，默认是 
+false.--> 
+<customUpdateUI></customUpdateUI> 
+<!-- 否允许用户通过点击浏览器中的链接来启动程序，可选，默认是false--> 
+<allowBrowserInvocation></allowBrowserInvocation> 
+<!-- 程序可注册的文件类型. 可选.--> 
+<fileTypes> 
+<!-- 定义文件类型. 可选.--> 
+<fileType> 
+<!-- 在系统中显示的文件类型名称. 必须.--> 
+<name></name> 
+<!-- 要注册的扩展名. 必须.--> 
+<extension></extension> 
+<!-- 文件类型的描述. 可选.--> 
+<description></description> 
+<!--MIME 类型. 可选.--> 
+<contentType></contentType> 
+<!-- 这个文件类型的图标显示. 可选.--> 
+<icon> 
+<image16x16></image16x16> 
+<image32x32></image32x32> 
+<image48x48></image48x48> 
+<image128x128></image128x128> 
+</icon> 
+</fileType> 
+</fileTypes> 
+</application> 
