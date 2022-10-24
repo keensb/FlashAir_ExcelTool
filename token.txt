@@ -1,0 +1,25 @@
+github从2021年8月开始不再支持 username + password的验证方式了, 改用 https://本项目token@github.com/用户名/项目名.git 的方式
+
+参考
+https://blog.csdn.net/qq_50840738/article/details/125087816
+
+
+例如此项目生成的token (生成时选择了永不过期):
+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
+
+
+
+使用命令 并替换下面的 <your_token>
+
+git remote set-url origin  https://<your_token>@github.com/keensb/FlashAir_ExcelTool.git
+
+完整的命令
+git remote set-url origin  https://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@github.com/keensb/FlashAir_ExcelTool.git
+
+
+
+
+然后执行 git push -u origin main  就能成功了
+
+
+
